@@ -1,0 +1,9 @@
+---
+applications:
+- name: cf-uptime-gerard-test
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack#v1.3.18
+  memory: 20M
+  disk_quota: 50M
+  instances: 1
+  routes:
+  - route: gerard-test.snpaas.eu
