@@ -3,4 +3,4 @@ pipeline: cf-uptime-gerard-test
 tasks:
 - type: deploy-cf
   api: ((cloudfoundry.api-snpaas))
-  space: test
+  space: role-test
